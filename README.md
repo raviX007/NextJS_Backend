@@ -18,7 +18,7 @@ This project is a Next.js backend that provides an API for interacting with the 
 Before getting started, make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v14 or later)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) 
+- [npm](https://www.npmjs.com/) 
 
 ### Installation
 
@@ -54,9 +54,7 @@ Before getting started, make sure you have the following installed:
 
    ```bash
    npm run dev
-   # or
-   yarn dev
-   ```
+     ```
 
 Your Next.js backend should now be running at `http://localhost:3000`.
 
