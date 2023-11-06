@@ -25,13 +25,13 @@ Before getting started, make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/nextjs-backend.git
+   git clone https://github.com/ravix007/NextJS_Backend.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd nextjs-backend
+   cd NextJS_Backend
    ```
 
 3. Install dependencies:
@@ -75,7 +75,7 @@ This backend provides API endpoints for text generation based on user messages. 
     "messages":[{"content":"What is apple?","role":"user"}]
   }
   ```
-Screenshot!![Alt text](image.png)
+  Screenshot!![Alt text](image.png)
 
   The endpoint will return a streaming response containing the generated text.
 
@@ -83,14 +83,3 @@ Screenshot!![Alt text](image.png)
 
 The project includes basic error handling for common issues such as invalid input data or API errors. If an error occurs, the API will return an appropriate error response with an error message.
 
-## Contributing
-
-Feel free to contribute to this project. You can create issues, submit pull requests, or provide suggestions for improvements. Your contributions are welcome!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Replace placeholders like `your-username` and `your-api-key` with your actual information. This README should give users and potential contributors an overview of your Next.js backend project and how to get started with it.
