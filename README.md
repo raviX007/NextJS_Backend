@@ -18,7 +18,7 @@ This project is a Next.js backend that provides an API for interacting with the 
 Before getting started, make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v14 or later)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (recommended)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) 
 
 ### Installation
 
@@ -65,8 +65,6 @@ Your Next.js backend should now be running at `http://localhost:3000`.
 This backend provides API endpoints for text generation based on user messages. To use it, you'll need a frontend interface to interact with the API.
 
 ## API Endpoints
-
-- `OPTIONS /api/chat`: This is used for handling HTTP OPTIONS requests and sets the necessary CORS headers.
 
 - `POST /api/getRes`: This endpoint is used to submit user messages and receive text generation responses. It expects a JSON array of user messages. Example request:
 
